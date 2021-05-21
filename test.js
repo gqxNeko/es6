@@ -1,0 +1,1 @@
+Promise.reject(1).then((data)=>{console.log(data)},(error)=>{console.log(error)}).catch(e=>console.log(e))
